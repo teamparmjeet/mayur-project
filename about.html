@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — WebCraft</title>
+  <meta name="description" content="Learn about WebCraft's mission to make modern web development practical, accessible, and inspiring.">
+  <meta property="og:title" content="About Us — WebCraft">
+  <meta property="og:description" content="Learn about WebCraft's mission to make modern web development practical, accessible, and inspiring.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SITE HEADER -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="index.html" class="brand-group" id="brand-link">
+        <span class="brand-name">WEBCRAFT<span class="brand-dot"></span></span>
+        <span class="brand-subtitle">Learn. Build. Create.</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" id="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="main-nav" id="main-navigation">
+        <a href="index.html" class="nav-link" id="nav-home">Home</a>
+        <a href="about.html" class="nav-link active" id="nav-about">About</a>
+        <a href="course.html" class="nav-link" id="nav-courses">Courses</a>
+        <a href="gallery.html" class="nav-link" id="nav-gallery">Gallery</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="course.html" class="btn btn-primary" id="header-cta-button">Start Learning</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HEADER & BANNER -->
+  <section class="page-header" id="about-intro">
+    <div class="container">
+      <div class="page-header-content">
+        <span class="eyebrow" id="about-label">ABOUT WEBCRAFT</span>
+        <h1 id="about-heading">Learning technology should be practical, simple and inspiring.</h1>
+        <p id="about-subtext">
+          We believe mastering the web requires more than abstract syntax. It demands intentional craftsmanship, hands-on iteration, and a deep appreciation for digital design.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WIDE BANNER IMAGE -->
+  <div class="container" id="about-banner-container">
+    <div class="about-banner-wrap">
+      <img 
+        src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80" 
+        alt="Team of digital creators and developers collaborating on modern web technologies in an open studio"
+        class="about-banner-img"
+        id="about-hero-image"
+      >
+    </div>
+  </div>
+
+  <!-- OUR STORY (EXACTLY 4 PARAGRAPHS) -->
+  <section class="section" id="our-story-section">
+    <div class="container">
+      <div class="story-wrapper">
+        <div class="eyebrow-plain">OUR ORIGINS & VALUES</div>
+        <h2 id="story-heading">Our Story</h2>
+
+        <!-- Paragraph 1: Who WebCraft is -->
+        <p id="story-p1">
+          WebCraft is an independent digital education studio founded by veteran web practitioners and designers dedicated to elevating modern digital literacy. We set out to create a learning environment stripped of unnecessary industry jargon, confusing theoretical detours, and outdated academic curriculums. By distilling the essential tools of frontend architecture into clear, intuitive learning pathways, WebCraft provides an intentional space where anyone with curiosity and dedication can master web creation.
+        </p>
+
+        <!-- Paragraph 2: Why practical web development education matters -->
+        <p id="story-p2">
+          We believe that practical web development education is the only reliable path to authentic technical competence. Passive video watching and automated multiple-choice quizzes cannot replicate the visceral experience of authoring semantic HTML, designing fluid responsive layouts in CSS, and resolving real rendering quirks inside modern browser viewports. By grounding every curriculum module in live project construction, we ensure that our learners build resilient problem-solving instincts that remain relevant throughout their careers.
+        </p>
+
+        <!-- Paragraph 3: Importance of digital skills in modern careers -->
+        <p id="story-p3">
+          In an increasingly digital global economy, digital skills have transformed from specialized advantages into universal career accelerators. Whether your goal is to launch a full-time engineering career, lead product teams, communicate effectively with technical peers, or build your own technology venture, understanding the structural foundations of the web grants you tremendous creative agency. Digital literacy gives you the autonomy to build, test, and publish your own ideas directly to the world.
+        </p>
+
+        <!-- Paragraph 4: Vision of helping learners create real-world digital products -->
+        <p id="story-p4">
+          Our overarching vision is to nurture a worldwide community of builders who create functional, accessible, and aesthetically refined digital experiences. We do not just teach students how to write code; we teach them how to think like product designers, architectural engineers, and digital craftsmen. When you build with WebCraft, you are not merely completing exercises—you are authoring enduring digital products that serve real people and shape what's next.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR APPROACH (HORIZONTAL ON DESKTOP, VERTICAL ON MOBILE) -->
+  <section class="section section-gray" id="our-approach-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="eyebrow-plain">THE WEBCRAFT METHODOLOGY</div>
+        <h2 id="approach-heading">Our Approach</h2>
+        <p>A proven, three-tier progression engineered to take you from foundational understanding to shipping authentic digital products.</p>
+      </div>
+
+      <div class="approach-grid" id="approach-grid">
+        <!-- Step 1: Learn -->
+        <div class="approach-card" id="approach-learn">
+          <div class="approach-step-num">STAGE 01</div>
+          <h3>Learn</h3>
+          <p><strong>Build strong fundamentals.</strong> Master clean semantic markup, architectural CSS standards, responsive design principles, and modern web conventions with zero ambiguity.</p>
+        </div>
+
+        <!-- Step 2: Practice -->
+        <div class="approach-card" id="approach-practice">
+          <div class="approach-step-num">STAGE 02</div>
+          <h3>Practice</h3>
+          <p><strong>Turn concepts into practical projects.</strong> Solidify your technical comprehension through deliberate micro-challenges, interface refactors, and real-time browser implementation.</p>
+        </div>
+
+        <!-- Step 3: Create -->
+        <div class="approach-card" id="approach-create">
+          <div class="approach-step-num">STAGE 03</div>
+          <h3>Create</h3>
+          <p><strong>Build real digital experiences.</strong> Synthesize your design and coding knowledge into fully realized websites and functional digital showcases ready for public deployment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR MISSION -->
+  <section class="section" id="mission-section">
+    <div class="container">
+      <div class="mission-card" id="mission-card">
+        <div class="eyebrow-plain">GUIDING PURPOSE</div>
+        <h2 id="mission-heading">Our Mission</h2>
+        <p id="mission-statement">
+          Our mission is to make web development and modern digital skills genuinely accessible, rigorous, and inspiring. We champion clean code, thoughtful visual design, and empowering individuals with the practical tools necessary to shape the future of the internet.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="about-cta">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Start your digital journey today.</h2>
+        <p>Explore our courses and discover how straightforward learning modern web development can be.</p>
+        <a href="course.html" class="btn btn-primary">Explore Courses →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-name">WEBCRAFT<span class="brand-dot"></span></div>
+          <div class="footer-tagline">Learn. Build. Create.</div>
+        </div>
+
+        <nav class="footer-nav" id="footer-navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="course.html">Courses</a>
+          <a href="gallery.html">Gallery</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copyright">© 2026 WebCraft. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

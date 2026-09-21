@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — WebCraft</title>
+  <meta name="description" content="A visual glimpse into our digital world, creative development workspaces, student workshops, and modern tech culture.">
+  <meta property="og:title" content="Gallery — WebCraft">
+  <meta property="og:description" content="A visual glimpse into our digital world, creative development workspaces, student workshops, and modern tech culture.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SITE HEADER -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="index.html" class="brand-group" id="brand-link">
+        <span class="brand-name">WEBCRAFT<span class="brand-dot"></span></span>
+        <span class="brand-subtitle">Learn. Build. Create.</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" id="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="main-nav" id="main-navigation">
+        <a href="index.html" class="nav-link" id="nav-home">Home</a>
+        <a href="about.html" class="nav-link" id="nav-about">About</a>
+        <a href="course.html" class="nav-link" id="nav-courses">Courses</a>
+        <a href="gallery.html" class="nav-link active" id="nav-gallery">Gallery</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="course.html" class="btn btn-primary" id="header-cta-button">Start Learning</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header" id="gallery-header">
+    <div class="container">
+      <div class="page-header-content">
+        <span class="eyebrow" id="gallery-label">OUR GALLERY</span>
+        <h1 id="gallery-title">A glimpse into our digital world.</h1>
+        <p id="gallery-subtext">
+          Explore our studios, hands-on learning sessions, collaborative workspaces, and the creative energy behind WebCraft.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY EDITORIAL GRID SECTION -->
+  <section class="section" id="gallery-section" style="padding-top: 1rem;">
+    <div class="container">
+      <div class="gallery-grid" id="editorial-grid">
+
+        <!-- 1. Coding / Web Development (Large Featured: Spans 7 cols x 2 rows) -->
+        <figure class="gallery-item gallery-item-1" id="gallery-img-1">
+          <img 
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" 
+            alt="Web developer authoring clean frontend code in modern setup"
+            loading="lazy"
+          >
+          <figcaption class="gallery-caption">Web Development & Code Architecture</figcaption>
+        </figure>
+
+        <!-- 2. Developers / Collaboration (Spans 5 cols x 1 row) -->
+        <figure class="gallery-item gallery-item-2" id="gallery-img-2">
+          <img 
+            src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80" 
+            alt="Developers reviewing code and collaborating on frontend design"
+            loading="lazy"
+          >
+          <figcaption class="gallery-caption">Collaborative Code Review</figcaption>
+        </figure>
+
+        <!-- 3. UI Design & Layouts (Spans 5 cols x 1 row) -->
+        <figure class="gallery-item gallery-item-3" id="gallery-img-3">
+          <img 
+            src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=800&q=80" 
+            alt="UI designer working on responsive layout wireframes and typography"
+            loading="lazy"
+          >
+          <figcaption class="gallery-caption">UI Design & Wireframe Layouts</figcaption>
+        </figure>
+
+        <!-- 4. Collaborative Tech Workshop / Digital Education (Wide Banner: Spans 12 cols x 2 rows) -->
+        <figure class="gallery-item gallery-item-4" id="gallery-img-4">
+          <img 
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80" 
+            alt="Students and mentors collaborating during an intensive digital workshop"
+            loading="lazy"
+          >
+          <figcaption class="gallery-caption">Hands-On Studio Workshops & Mentorship</figcaption>
+        </figure>
+
+        <!-- 5. Technology & Hardware Tools (Spans 4 cols x 1 row) -->
+        <figure class="gallery-item gallery-item-5" id="gallery-img-5">
+          <img 
+            src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80" 
+            alt="Minimalist mechanical keyboard and developer workspace gear"
+            loading="lazy"
+          >
+          <figcaption class="gallery-caption">Developer Hardware & Ergonomics</figcaption>
+        </figure>
+
+        <!-- 6. Coding & Screen Setup (Spans 4 cols x 1 row) -->
+        <figure class="gallery-item gallery-item-6" id="gallery-img-6">
+          <img 
+            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80" 
+            alt="Laptop display showing browser developer tools and CSS styles"
+            loading="lazy"
+          >
+          <figcaption class="gallery-caption">Browser Debugging & Inspecting</figcaption>
+        </figure>
+
+        <!-- 7. Students Learning / Digital Education (Spans 4 cols x 1 row) -->
+        <figure class="gallery-item gallery-item-7" id="gallery-img-7">
+          <img 
+            src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80" 
+            alt="Students engaged in peer learning and team problem solving"
+            loading="lazy"
+          >
+          <figcaption class="gallery-caption">Student Community & Team Learning</figcaption>
+        </figure>
+
+        <!-- 8. Computers & Multi-monitor Workstation (Spans 6 cols x 1 row) -->
+        <figure class="gallery-item gallery-item-8" id="gallery-img-8">
+          <img 
+            src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80" 
+            alt="High-performance dual screen workstation for web development"
+            loading="lazy"
+          >
+          <figcaption class="gallery-caption">Multi-Monitor Engineering Setups</figcaption>
+        </figure>
+
+        <!-- 9. Creative Workspace Studio (Spans 6 cols x 1 row) -->
+        <figure class="gallery-item gallery-item-9" id="gallery-img-9">
+          <img 
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80" 
+            alt="Modern open-concept creative studio space designed for focus"
+            loading="lazy"
+          >
+          <figcaption class="gallery-caption">Creative Workspace & Studio Architecture</figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="gallery-cta">
+    <div class="container">
+      <div class="cta-box">
+        <h2>Experience the WebCraft environment.</h2>
+        <p>Start learning today and join our passionate cohort of creators, designers, and developers.</p>
+        <a href="course.html" class="btn btn-primary">Browse Courses →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-name">WEBCRAFT<span class="brand-dot"></span></div>
+          <div class="footer-tagline">Learn. Build. Create.</div>
+        </div>
+
+        <nav class="footer-nav" id="footer-navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="course.html">Courses</a>
+          <a href="gallery.html">Gallery</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copyright">© 2026 WebCraft. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

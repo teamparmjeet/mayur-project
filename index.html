@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebCraft — Learn. Build. Create.</title>
+  <meta name="description" content="Modern web development and digital skills learning platform. Build digital skills and create what's next.">
+  <meta property="og:title" content="WebCraft — Learn. Build. Create.">
+  <meta property="og:description" content="Modern web development and digital skills learning platform. Build digital skills and create what's next.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- SITE HEADER -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="index.html" class="brand-group" id="brand-link">
+        <span class="brand-name">WEBCRAFT<span class="brand-dot"></span></span>
+        <span class="brand-subtitle">Learn. Build. Create.</span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" id="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="main-nav" id="main-navigation">
+        <a href="index.html" class="nav-link active" id="nav-home">Home</a>
+        <a href="about.html" class="nav-link" id="nav-about">About</a>
+        <a href="course.html" class="nav-link" id="nav-courses">Courses</a>
+        <a href="gallery.html" class="nav-link" id="nav-gallery">Gallery</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="course.html" class="btn btn-primary" id="header-cta-button">Start Learning</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. HERO SECTION -->
+  <section class="hero" id="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow" id="hero-label">WEB DEVELOPMENT & DIGITAL SKILLS</span>
+          <h1 class="hero-title" id="hero-heading">Build Digital Skills. Create What's Next.</h1>
+          <p class="hero-description" id="hero-supporting-text">
+            Learn modern web development and digital technologies through practical, project-focused learning designed for the real world.
+          </p>
+          <div class="hero-actions">
+            <a href="course.html" class="btn btn-primary" id="hero-btn-explore">Explore Courses</a>
+            <a href="about.html" class="btn btn-secondary" id="hero-btn-about">About Us</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" id="hero-visual-card">
+          <div class="hero-preview-window">
+            <div class="window-header">
+              <div class="window-dots">
+                <span class="dot-red"></span>
+                <span class="dot-yellow"></span>
+                <span class="dot-green"></span>
+              </div>
+              <span class="window-title-tab">app.webcraft.dev/preview</span>
+            </div>
+            <img 
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" 
+              alt="Modern web development workstation showing responsive code and clean design"
+              class="hero-image"
+              id="hero-img"
+            >
+            <div class="hero-caption-bar">
+              <div class="hero-caption-tech">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Design Systems</span>
+              </div>
+              <div class="hero-caption-status">
+                <span class="status-indicator"></span>
+                Live Environment
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. TRUSTED / STATS SECTION -->
+  <section class="stats-section" id="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item" id="stat-courses">
+          <div class="stat-value">10+</div>
+          <div class="stat-label">Courses</div>
+        </div>
+        <div class="stat-item" id="stat-learners">
+          <div class="stat-value">500+</div>
+          <div class="stat-label">Learners</div>
+        </div>
+        <div class="stat-item" id="stat-projects">
+          <div class="stat-value">25+</div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div class="stat-item" id="stat-practical">
+          <div class="stat-value">100%</div>
+          <div class="stat-label">Practical Learning</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. WHAT WE TEACH -->
+  <section class="section section-gray" id="what-we-teach">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="eyebrow-plain">CURRICULUM ARCHITECTURE</div>
+        <h2 id="teach-heading">Learn skills that actually matter.</h2>
+        <p id="teach-subtext">Designed specifically to bridge the gap between basic syntax and high-caliber digital execution.</p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature Block 1 -->
+        <div class="feature-card" id="feature-web-dev">
+          <div class="feature-icon-badge" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+          </div>
+          <h3>Web Development</h3>
+          <p>Build modern websites using HTML, CSS and modern frontend concepts.</p>
+        </div>
+
+        <!-- Feature Block 2 -->
+        <div class="feature-card" id="feature-digital-tech">
+          <div class="feature-icon-badge" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+          </div>
+          <h3>Digital Technology</h3>
+          <p>Understand modern digital tools, workflows and technologies.</p>
+        </div>
+
+        <!-- Feature Block 3 -->
+        <div class="feature-card" id="feature-creative-design">
+          <div class="feature-icon-badge" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+              <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+              <path d="M2 2l7.586 7.586"></path>
+              <circle cx="11" cy="11" r="2"></circle>
+            </svg>
+          </div>
+          <h3>Creative Web Design</h3>
+          <p>Learn layouts, typography, visual hierarchy and responsive design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. FEATURED LEARNING -->
+  <section class="section" id="featured-learning">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="eyebrow-plain">PRACTICAL PATHWAYS</div>
+        <h2 id="learning-heading">From learning to building.</h2>
+        <p>Explore our core programs designed to turn foundational concepts into deployed production websites.</p>
+      </div>
+
+      <div class="learning-grid">
+        <!-- Block 1 -->
+        <div class="learning-card" id="learning-card-1">
+          <div class="learning-image-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" 
+              alt="Modern code editor displaying clean semantic HTML and CSS structure"
+            >
+          </div>
+          <div class="learning-content">
+            <span class="card-category">Core Track</span>
+            <h3>Modern Web Development</h3>
+            <p>Master semantic HTML5 markup, responsive CSS architectures, and production standards built for longevity.</p>
+            <a href="course.html" class="btn-text-link">Explore <span class="arrow">→</span></a>
+          </div>
+        </div>
+
+        <!-- Block 2 -->
+        <div class="learning-card" id="learning-card-2">
+          <div class="learning-image-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80" 
+              alt="Multi-device responsive mockup demonstrating fluid design systems"
+            >
+          </div>
+          <div class="learning-content">
+            <span class="card-category">Design Track</span>
+            <h3>Responsive Web Design</h3>
+            <p>Craft fluid, accessible layouts that adapt harmoniously across phones, tablets, notebooks, and wide displays.</p>
+            <a href="course.html" class="btn-text-link">Explore <span class="arrow">→</span></a>
+          </div>
+        </div>
+
+        <!-- Block 3 -->
+        <div class="learning-card" id="learning-card-3">
+          <div class="learning-image-wrap">
+            <img 
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" 
+              alt="Digital interface analysis and deployed web project portfolio"
+            >
+          </div>
+          <div class="learning-content">
+            <span class="card-category">Portfolio Track</span>
+            <h3>Digital Projects</h3>
+            <p>Translate conceptual knowledge into fully functional web applications, interactive showcases, and live deployments.</p>
+            <a href="course.html" class="btn-text-link">Explore <span class="arrow">→</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. CTA SECTION -->
+  <section class="cta-section" id="home-cta">
+    <div class="container">
+      <div class="cta-box">
+        <h2 id="cta-heading">Ready to build something meaningful?</h2>
+        <p id="cta-supporting-text">
+          Join a community of ambitious builders gaining real skills through practical, high-impact web development projects.
+        </p>
+        <a href="course.html" class="btn btn-primary" id="cta-button">Explore Courses →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-name">WEBCRAFT<span class="brand-dot"></span></div>
+          <div class="footer-tagline">Learn. Build. Create.</div>
+        </div>
+
+        <nav class="footer-nav" id="footer-navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="course.html">Courses</a>
+          <a href="gallery.html">Gallery</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copyright">© 2026 WebCraft. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
